@@ -1,0 +1,15 @@
+D:\My Apps\XAMARIN\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+D:\My Apps\XAMARIN\App1\App1\bin\Debug\netstandard2.0\App1.dll
+D:\My Apps\XAMARIN\App1\App1\bin\Debug\netstandard2.0\ref\App1.dll
+D:\My Apps\XAMARIN\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\App1.csprojAssemblyReference.cache
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\Views\HomeView.xaml.g.cs
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\App1.dll
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll
+D:\My Apps\XAMARIN\App1\App1\obj\Debug\netstandard2.0\App1.pdb

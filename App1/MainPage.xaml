@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1.ViewModels"
+             xmlns:cardView="clr-namespace:CardView;assembly=CardView"
+             x:Class="App1.MainPage">
+    <ContentPage.BindingContext>
+        <local:HomeViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Label Text="Test" FontSize="Title"></Label>
+
+        <ListView
+            x:Name="listView"
+            ItemsSource="{Binding Notifications}"
+            RowHeight="150">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Grid>
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="Title"
+                                    Text="{Binding Title}" />
+                                <Label/>
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    FontSize="Subtitle"
+                                    Text="{Binding Content}" />
+                                <Label/>
+                                <Image Source="https://www.flaticon.com/svg/static/icons/svg/2088/2088617.svg" Grid.Row="2" Grid.Column="0" HeightRequest="30" WidthRequest="30"/>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
+
+<!--<StackLayout Padding="8,8,8,8" Orientation="Vertical">
+
+    <cardView:CardView
+                                BackgroundColor="White"
+                                CardViewHasShadow="True"
+                                HeightRequest="220">
+        <cardView:CardView.CardViewContent>
+            <StackLayout
+                                    Padding="10"
+                                    HorizontalOptions="Center"
+                                    Spacing="10"
+                                    VerticalOptions="Center">
+
+                
+                <Grid>
+                    <Label
+                                            Grid.Row="0"
+                                            Grid.Column="0"
+                                            FontSize="Title"
+                                            Text="{Binding Title}" />
+                    <Label
+                                            Grid.Row="1"
+                                            Grid.Column="0"
+                                            FontSize="Subtitlel"
+                                            Text="{Binding Content}" />
+                    <Label
+                                            Grid.Row="2"
+                                            Grid.Column="0"
+                                            FontSize="Small"
+                                            Text="{Binding PublishedAt.Year}"
+                                            TextColor="LightGray"
+                                            />
+                </Grid>
+            </StackLayout>
+        </cardView:CardView.CardViewContent>
+    </cardView:CardView>
+</StackLayout>-->

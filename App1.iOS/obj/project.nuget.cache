@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dyc0kXLyFKmtMRaLjnssrpGPVBVh0xLOTWQE0Wp5ulaZLUpmZsOCqOaDJmb1Xnujrd+5Xcp7xJeYT1LDPchxyg==",
+  "success": true,
+  "projectFilePath": "D:\\My Apps\\XAMARIN\\App1\\App1.iOS\\App1.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dorya\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\dorya\\.nuget\\packages\\xamarinforms.cardview\\1.1.1.5\\xamarinforms.cardview.1.1.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
